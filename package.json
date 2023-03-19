@@ -1,7 +1,12 @@
 {
   "name": "text-animation",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "module": "./lib/esm/index.js",
+  "main": "./lib/cjs/index.js",
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
